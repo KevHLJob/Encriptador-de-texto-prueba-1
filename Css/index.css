@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);;
+    color: #0A3871;
+
+}
+.title{
+    text-align: center;
+}
+
+.txt-word{
+    position: absolute;
+width: 577px;
+height: 40px;
+left: 100px;
+top: 168px;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 100%;
+color: #0A3871;
+border-radius: 20px;
+}
+.container{
+position: absolute;
+width: 400px;
+height: 584px;
+left: 950px;
+top: 40px;
+/* White */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+text-align: center;
+}
+
+.img-looking{
+margin-top: 50px;
+}
+.lb-info{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+text-align: center;
+/* Gray/gray-500 */
+color: #343A40;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.txt-encript{
+position: static;
+width: 336px;
+height: 48px;
+left: 0px;
+top: 74px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* or 24px */
+text-align: center;
+/* Gray/gray-400 */
+color: #495057;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.encriptar{
+align-items: flex-start;
+padding: 24px;
+position: static;
+width: 328px;
+height: 67px;
+left: 0px;
+top: 0px;
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+color: #c9d6ff;
+border-radius: 24px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.encriptar:hover{
+    background-color: #4e68fd;
+    transition: 0.5s;
+    
+}
+.desencriptar{
+    /* Auto layout */
+text-align: center;
+padding: 24px;
+position: static;
+width: 328px;
+height: 67px;
+left: 372px;
+top: 0px;
+/* Light gray */
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+border: 1px solid #4c85caee;
+box-sizing: border-box;
+border-radius: 24px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.desencriptar:hover{
+    background-color: #466fa1;
+    transition: 0.5;
+    color: #c9d6ff;
+}
+.buttons{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 680px;
+height: 67px;
+left: 85px;
+top: 485px;
+color: #e5e6e7;
+}
