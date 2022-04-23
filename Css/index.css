@@ -82,6 +82,20 @@ align-self: stretch;
 flex-grow: 0;
 margin: 16px 0px;
 }
+
+.btn-copy{
+padding: 28px;
+margin-top: 80px;
+width: 336px;
+height: 67px;
+left: 32px;
+top: 15px;
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+box-sizing: border-box;
+border-radius: 24px;
+}
+
 .encriptar{
 align-items: flex-start;
 padding: 24px;
@@ -128,7 +142,7 @@ margin: 0px 24px;
 }
 .desencriptar:hover{
     background-color: #466fa1;
-    transition: 0.5;
+    transition: 0.5s;
     color: #c9d6ff;
 }
 .buttons{
