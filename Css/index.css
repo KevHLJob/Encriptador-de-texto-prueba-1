@@ -70,7 +70,7 @@ top: 74px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 24px;
 /* or 24px */
 text-align: center;
 /* Gray/gray-400 */
@@ -85,7 +85,7 @@ margin: 16px 0px;
 
 .btn-copy{
 padding: 28px;
-margin-top: 80px;
+margin-top: 50px;
 width: 336px;
 height: 67px;
 left: 32px;
@@ -96,6 +96,11 @@ box-sizing: border-box;
 border-radius: 24px;
 }
 
+.btn-copy:hover{
+    background-color: #4e68fd;
+    transition: 0.5s;
+    color: #FFFFFF;
+}
 .encriptar{
 align-items: flex-start;
 padding: 24px;
@@ -143,7 +148,7 @@ margin: 0px 24px;
 .desencriptar:hover{
     background-color: #466fa1;
     transition: 0.5s;
-    color: #c9d6ff;
+    color: #fff;
 }
 .buttons{
 display: flex;
@@ -156,4 +161,53 @@ height: 67px;
 left: 85px;
 top: 485px;
 color: #e5e6e7;
+}
+
+/*media queries */
+
+/* large service */
+@media screen and (max-width: 990px ){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        
+        position: absolute;
+        width: 388px;
+        height: 433px;
+        left: 180px;
+        top: 358px;
+        
+        /* White */
+        
+        background: #FFFFFF;
+        /* shadow */
+        
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+   .buttons{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    height: 57px;
+    left: 80px;
+    top: 270px;
+   }
+   .encriptar,.desencriptar{
+       width: 250px;
+   }
+   .img-looking{
+       width: 200px;
+       height: 200px;
+   }
+}
+
+/* phone devices */
+@media screen and (max-width: 700px){
+
+    
 }
