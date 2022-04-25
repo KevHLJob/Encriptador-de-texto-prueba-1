@@ -42,6 +42,8 @@ text-align: center;
 .img-looking{
 margin-top: 50px;
 }
+/*Its a change state of encrypt or desencrypt */
+
 .lb-info{
 font-family: 'Inter';
 font-style: normal;
@@ -59,6 +61,8 @@ align-self: stretch;
 flex-grow: 0;
 margin: 16px 0px;
 }
+
+/*text field of word  */
 
 .txt-encript{
 position: static;
@@ -82,6 +86,7 @@ align-self: stretch;
 flex-grow: 0;
 margin: 16px 0px;
 }
+/*properties of button copy */
 
 .btn-copy{
 padding: 28px;
@@ -95,12 +100,15 @@ border: 1px solid #0A3871;
 box-sizing: border-box;
 border-radius: 24px;
 }
+/*hover of button copy */
 
 .btn-copy:hover{
     background-color: #4e68fd;
     transition: 0.5s;
     color: #FFFFFF;
 }
+/*button encriptar */
+
 .encriptar{
 align-items: flex-start;
 padding: 24px;
@@ -124,6 +132,8 @@ margin: 0px 24px;
     transition: 0.5s;
     
 }
+/*button desencriptar */
+
 .desencriptar{
     /* Auto layout */
 text-align: center;
@@ -150,6 +160,7 @@ margin: 0px 24px;
     transition: 0.5s;
     color: #fff;
 }
+/*container buttons */
 .buttons{
 display: flex;
 flex-direction: row;
@@ -165,8 +176,11 @@ color: #e5e6e7;
 
 /*media queries */
 
-/* large service */
+/* large service or tablet*/
 @media screen and (max-width: 990px ){
+    .txt-word{
+        width: 33rem;
+    }
     .container{
         display: flex;
         flex-direction: column;
@@ -207,7 +221,81 @@ color: #e5e6e7;
 }
 
 /* phone devices */
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px) {
+    .title{
+        text-align: center;
+    }
+    .txt-word{
+        text-align: center;
+        left: 20px;
+        align-items: center;
+        width: 23rem;
+    }
+    .buttons{
+        left: 0;
+        
+    }
+    .encriptar, .desencriptar{
+        width: 10rem;
+    }
+    .container{
+        left: 0.5rem;
+        width: 21rem;
+    }
+    .img-looking{
+        width: 10rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
 
-    
+}
+/* phone devices */
+@media screen and (max-width: 425px){
+.title{
+    text-align: center;
+}
+img{
+    width: 5rem;
+}
+
+.txt-word{
+    padding: 0;
+    margin: 0;
+    left: 1rem;
+    width: 20rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.buttons{
+    left: 0;
+    width: 3rem;
+}
+.encriptar, .desencriptar{
+    width: 8rem;
+    left: 0;
+}
+.container{
+    left: 2rem;
+    width: 15rem;
+    align-items: center;
+    align-items: center;
+}
+.img-looking{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 0;   
+}
+.lb-info{
+    font-size: 25px;
+}
+
+.txt-encript{
+    margin-top: 7rem;
+    font-size: 16px;
+}
+.btn-copy{
+    width: 9rem;
+    margin-top: 10rem;
+}  
 }
