@@ -220,7 +220,7 @@ color: #e5e6e7;
    }
 }
 
-/* phone devices */
+/* medium devices */
 @media screen and (max-width: 768px) {
     .title{
         text-align: center;

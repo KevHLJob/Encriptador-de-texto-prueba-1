@@ -1,4 +1,4 @@
-
+//function encriptar
 function encriptar (){
     //create a var save value of txt word.
     var frase = document.getElementById("word").value;
@@ -20,9 +20,8 @@ lbtext.innerHTML="Texto encriptado.";
 formulario.reset();
 }
 
-//clean field
 
-
+//function desencriptar, 
 function desencriptar(){
   var txtfrase= document.getElementById("word").value;
 
@@ -42,6 +41,7 @@ lbtext.innerHTML="Texto desencriptado.";
  formulario.reset();
 }
 
+//function copiar por medio del id del elemento
 function copiarAlPortapapeles(id_elemento) {
   alert("Texto copiado");
   var aux = document.createElement("input");
